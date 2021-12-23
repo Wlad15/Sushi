@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.sub-menu {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dragon {
+  float: right;
+  padding-top: 23%;
+}
+
+.sub-menu-text {
+  color: white;
+  font-size: 5em;
+  font-family: Cinzel;
+  letter-spacing: 0.05em;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+
+.sub-menu-sub-text {
+  color: white;
+  font-size: 2em;
+  font-family: Cinzel;
+  letter-spacing: 0.05em;
+  position: absolute;
+  bottom: -17%;
+  left: 5%;
+}

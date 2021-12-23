@@ -3,19 +3,80 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="sub-menu.css">
     <title></title>
   </head>
+
   <body>
     <nav class="navbar">
-      <div class="links">
-        <ul>
-          <li><a href="Leistungen">Leistungen</a></li>
-          <li><a href="Kontakt">Kontakt</a></li>
-          <li id="menu"><a href="Menü">Menü</a></li>
-          <li><a href="Über Uns">Über Uns</a></li>
-          <li><a href="AGB">AGB</a></li>
-        </ul>
+      <div class="logo">
+        <div class="logo-text logo-text-left">Tokyo</div>
+        <div class="logo-pic"><img src="../icons/logo2.png" alt=""></div>
+        <div class="logo-text logo-text-right">Restaurant</div>
       </div>
+
+      <ul class="navbar-list">
+        <li class="navbar-list-section"><a class="navbar-list-item" href="#">Leistungen</a></li>
+        <li class="navbar-list-section"><a class="navbar-list-item" href="#">Kontakt</a></li>
+        <li class="navbar-list-section"><a class="navbar-list-item-menu" href="#">Menü</a></li>
+        <li class="navbar-list-section"><a class="navbar-list-item" href="#">Über Uns</a></li>
+        <li class="navbar-list-section"><a class="navbar-list-item" href="#">AGB</a></li>
+      </ul>
     </nav>
+
+    <ul class="menu">
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/sushi-rolls.png" alt="">
+        <div class="menu-item-text">Sushi & Rolls</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/sets.png" alt="">
+        <div class="menu-item-text">Sets</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/extras.png" alt="">
+        <div class="menu-item-text">Grill</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/grill.png" alt="">
+        <div class="menu-item-text">Extras</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/salate.png" alt="">
+        <div class="menu-item-text">Salate</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/Nigiri.png" alt="">
+        <div class="menu-item-text">Nigiri</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/Wok.png" alt="">
+        <div class="menu-item-text">Wok</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/Veggie.png" alt="">
+        <div class="menu-item-text">Vegie</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/getranke.png" alt="">
+        <div class="menu-item-text">Getränke</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/desert.png" alt="">
+        <div class="menu-item-text">Dessert</div>
+      </a></li>
+      <li class="menu-section"><a class="menu-item" href="#">
+        <img class="menu-item-img" src="../icons/sausen.png" alt="">
+        <div class="menu-item-text">Saußen</div>
+      </a></li>
+    </ul>
+
+    <div class="sub-menu" style="background-image: url(../icons/bg-sushi-rolls.png);">
+      <img class="dragon" src="../icons/dragon.png" alt="">
+      <p class="sub-menu-text">Sushi & Rolls </p>
+      <p class="sub-menu-sub-text">Maki rolls</p>
+    </div>
+
   </body>
 </html>
