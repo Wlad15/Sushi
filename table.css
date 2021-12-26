@@ -1,6 +1,9 @@
 .meal {
-  width = 25%;
-  height: 25%;
   color = red;
   display: table-cell;
+}
+
+.meal-pic {
+  width: auto;
+  height: auto;
 }
