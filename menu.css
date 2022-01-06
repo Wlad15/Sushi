@@ -2,44 +2,48 @@
 
 .menu {
   display: flex;
-  justify-content: center;
-  padding: 0em 1em 0em 1em;
-  background-color: black 0.5;
-  height: 0%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  overflow: auto;
 }
 
 .menu-section {
-  display: flex;
-  justify-content: center;
-  width: 9.99%;
+  flex-shrink: 0;
 }
 
-.menu-item{
-  width: 100%;
+.menu-item {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .menu-item-text {
-  display: flex;
-  justify-content: center;
   text-decoration: none;
-  /* margin-top: 0.5em; */
-  padding: 0.5em;
   color: rgba(255, 255, 255, 0.55);
   font-size: 1.5em;
-  text-align: center;
   font-family: "Mochiy Pop One", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .menu-item-img {
-  padding: 5%;
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 20px;
 }
 
 .menu-item:hover .menu-item-img {
   border-width: 6px;
   border-style: solid;
   border-color: rgba(255,215,0,0.2);
+}
+
+@media only screen and (max-width: 500px) {
+    .menu-item-text {
+      font-size: 1.2em;
+    }
 }

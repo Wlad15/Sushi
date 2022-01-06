@@ -2,13 +2,10 @@
 <html lang="de" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="sub-menu.css">
-    <link rel="stylesheet" href="meal.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="shop-cart.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="uleistungen.css">
     <title></title>
   </head>
 
@@ -21,9 +18,9 @@
       </div>
 
       <nav class="navbar" id="nav-list">
-        <div><a class="navbar-item" href="#">Leistungen</a></div>
+        <div><a class="navbar-item hier" href="#">Leistungen</a></div>
         <div><a class="navbar-item" href="#">Kontakt</a></div>
-        <div><a class="navbar-item menu-option hier" href="#">Menü</a></div>
+        <div><a class="navbar-item menu-option" href="#">Menü</a></div>
         <div><a class="navbar-item" href="#">Über Uns</a></div>
         <div><a class="navbar-item" href="#">AGB</a></div>
       </nav>
@@ -35,7 +32,7 @@
       </div>
     </div>
 
-    <div class="mus">
+    <div class="topic">
       <ul class="menu">
         <li class="menu-section"><a class="menu-item" href="#">
           <img class="menu-item-img" src="../icons/sushi-rolls.png" alt="">
@@ -83,86 +80,21 @@
         </a></li>
       </ul>
 
-      <div class="sub-menu">
-        <p class="sub-menu-name">Sushi & Rolls </p>
-        <div class="sub-menu-section">
-          <div class="sub-menu-item"><a href="#">Maki rolls</a></div>
-          <div class="sub-menu-item"><a href="#">Tempura rolls</a></div>
-          <div class="sub-menu-item"><a href="#">Hot Special rolls</a></div>
-        </div>
+      <div>
+        <span>Unsere <br> Leistungen</span>
       </div>
     </div>
 
-    <div class="meal">
-      <h3 class="meal-name"> Tempura Rolls Cesar</h3>
-      <img class="meal-pic" src="../icons/Ceasar-Tempura.png" alt="">
-      <p class="meal-text"> (8 Stück) A,G,H,J,M,N Cesar-Sauce, Hühnerfilet, Gurke,
-      Salat, Knoblauch, Parmesan</p>
-      <br>
-      <div class="price-button">
-        <span class="price"> 8,90 €</span>
-        <!-- <button type="button" >Add to list</button> -->
-      </div>
-    </div>
+  <img src="../backgrounds/Leistungen.png" alt="">
 
-    <footer>
-      <table class="footer">
-        <tr>
-          <td>Zusatzstoffe:</td>
-          <td>H: Fische</td>
-        </tr>
-        <tr>
-          <td>A: Glutenhaltiges Getreide</td>
-          <td>I: Erdnüsse*</td>
-        </tr>
-        <tr>
-          <td>B: Weizen*</td>
-          <td>J: Sojabohnen*</td>
-        </tr>
-        <tr>
-          <td>C: Roggen*</td>
-          <td>K: Milch*</td>
-        </tr>
-        <tr>
-          <td>D: Gerste*</td>
-          <td>M: Senf*</td>
-        </tr>
-        <tr>
-          <td>E: Hafer*</td>
-          <td>N: Sesamsamen*</td>
-        </tr>
-        <tr>
-          <td>F: Krebtiere*</td>
-          <td>O: Weichtiere*</td>
-        </tr>
-        <tr>
-          <td>G: Eier*</td>
-          <td>* und daraus gewonnene Erzeugnisse</td>
-        </tr>
-      </table>
-    </footer>
+</body>
 
-    <!-- <button type="button" class="shop-cart">
-      <span class="cart-icon"></span>
-      <span class="cart-counter">3</span>
-    </button> -->
+<script type="text/javascript">
+    const toggleButton = document.getElementById('toggle-button');
+    const navList = document.getElementById('nav-list');
 
-  </body>
+    toggleButton.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    })
 
-  <script type="text/javascript">
-      const toggleButton = document.getElementById('toggle-button');
-      const navList = document.getElementById('nav-list');
-
-      toggleButton.addEventListener('click', () => {
-        navList.classList.toggle('active');
-      })
-  </script>
-
-  <!-- <script type="text/javascript">
-    @media(screen.width < 500) {
-      var meal = document.getElementsByClassName("meal");
-      meal[0].style.color = "green";
-    }
-  </script> -->
-
-</html>
+</script>

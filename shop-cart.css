@@ -1,0 +1,21 @@
+.shop-cart {
+  width: 100px;
+  height: 100px;
+  color: gold;
+  background: red;
+  border: 1px solid green;
+  border-radius: 50%;
+  background-image: url("../icons/wish-list.png");
+  display:flex;
+  position: relative;
+}
+
+.cart-counter {
+  position: absolute;
+  top: -5em;
+  right: 1em
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}

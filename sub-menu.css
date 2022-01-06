@@ -1,65 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
-.sub-menu {
-  width: 100%;
-  height: 100%;
+
+.mus {
+  background-image: url(../backgrounds/sushi&rolls.png);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%
+  /* height: 800px */
 }
 
-.dragon {
-  float: right;
-  padding-top: 23%;
+.sub-menu {
+  padding: 15% 5%;
 }
 
-.sub-menu-text {
+.sub-menu-name {
   color: white;
   font-size: 5em;
   font-family: Cinzel;
   letter-spacing: 0.05em;
-  position: absolute;
-  bottom: 0;
-  left: 5%;
 }
 
-.sub-menu-sub-text {
+.sub-menu-section {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: flex-start; */
+
+  padding-top: 5%;
+}
+
+.sub-menu-item {
   color: white;
   font-size: 2em;
   font-family: Cinzel;
   letter-spacing: 0.05em;
-  position: absolute;
-  bottom: -17%;
-  left: 5%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent;
+  margin-right: 2.5%;
+  padding: 3px;
+}
+.sub-menu-item a {
+  text-decoration: none;
+  color: white;
 }
 
-.sub-menu-sub-text:hover  {
+.sub-menu-item:hover  {
   border-width: 6px;
   border-style: solid;
   border-color: rgba(255,215,0,0.2);
+  border-radius: 20px;
 }
 
-.meal {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 300px;
-}
-.meal .meal-pic {
-
+.hier {
+  background-color: rgba(255,215,0,0.2);
 }
 
-footer {
-  display: block;
-  align-content: center;
-  color: rgba(251,231,181,255);
-  background-image: url("../icons/background.png");
-  font-size: 2em;
-}
+@media only screen and (max-width: 500px) {
+  .sub-menu-name {
+    font-size: 2em;
+  }
 
-footer .footer {
-  margin-bottom: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1000px;
+  .sub-menu-item {
+    font-size: 1em;
+  }
 }

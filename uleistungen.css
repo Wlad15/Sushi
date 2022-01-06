@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.topic {
+  background-image: url("../backgrounds/uber_uns.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.topic span {
+  position: relative;
+  top : 5em;
+  left: 2em;
+  font-size: 3em;
+  font-family: Cinzel;
+}
+
+
+
+.hier {
+  background-color: rgba(255,215,0,0.2);
+}

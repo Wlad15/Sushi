@@ -1,0 +1,50 @@
+.meal {
+  color: white;
+  display: block;
+  width: 33%;
+  border: 1px solid white;
+}
+
+.meal-name {
+  text-align: center;
+  font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 2em;
+  margin: 1em;
+}
+
+.meal-pic {
+  display: block;
+  margin: 5%;
+  width: 90%;
+  height: auto;
+}
+
+.meal-text {
+  font-size: 1.75em;
+  font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: grey;
+  margin: 1em;
+}
+
+.price-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.price {
+  font-size: 3em;
+}
+
+.meal button {
+  font-size: 1.5em;
+  padding: 1em 1em;
+  color: rgba(254,207,87,255);
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.meal button:hover {
+  cursor: pointer;
+}
