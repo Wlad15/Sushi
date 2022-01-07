@@ -9,11 +9,9 @@
   color: white;
 }
 
-.topic span {
-
-  position: relative;
-  top : 6.5em;
-  left: 2em;
+.topic p {
+  margin-top: 5em;
+  margin-left: 1em;
   font-size: 3em;
   font-family: Cinzel;
 }
@@ -25,12 +23,48 @@
   text-align: justify;
 }
 
-.uber_uns_img {
+.uber-uns-pc {
   width: 100%;
   padding-bottom: 3em;
 }
 
+.uber-uns-phone {
+  display: none;
+}
 
 .hier {
   background-color: rgba(255,215,0,0.2);
+}
+
+
+@media only screen and (max-width: 500px) {
+  .topic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 68%;
+    height: 50%;
+  }
+
+  .topic p {
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+    font-size: 2.5em;
+  }
+
+  .uberUns-text {
+    max-width: 100%;
+    margin: 2vh 6vw;
+    font-size: 1.5em;
+    text-align: left;
+  }
+
+  .uber-uns-pc {
+    display: none;
+  }
+
+  .uber-uns-phone {
+    display: block;
+    width: 100%;
+    margin-bottom: 2vh;
+  }
 }
