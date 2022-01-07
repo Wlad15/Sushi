@@ -67,7 +67,7 @@ html, body {
   color: aqua;
   width: 20px;
   height: 3px;
-  background-color: white;
+  background-color: rgba(251,231,181,255);
   margin-bottom: 4px;
 }
 
